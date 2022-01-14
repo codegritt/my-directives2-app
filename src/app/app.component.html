@@ -32,3 +32,13 @@ yes 2 is greater than 1
   </div>
 </ng-template>
 <hr>
+
+<h2>Using ngSwitch</h2>
+
+<div [ngSwitch]="color">
+  <div *ngSwitchCase="'red'">you picked red</div>
+  <div *ngSwitchCase="'blue'">you picked blue</div>
+  <div *ngSwitchCase="'green'">you picked green</div>
+
+
+</div>
