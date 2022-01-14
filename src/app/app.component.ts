@@ -10,4 +10,9 @@ export class AppComponent {
 
 someRandomVariable=false;
 
+constructor(){
+  setInterval(()=>{
+  this.someRandomVariable=!this.someRandomVariable
+  },1000);
+}
 }
