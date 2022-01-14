@@ -4,6 +4,7 @@
 yes 2 is greater than 1
 </div>
 <br>
+<hr>
 <h2>Using 2 *ngIf</h2>
 
 <div *ngIf="someRandomVariable">
@@ -13,15 +14,21 @@ yes 2 is greater than 1
   no variable is absent
 </div>
 <br>
+<hr>
 <h2>Using *ngIf else</h2>
 
 <div *ngIf="someRandomVariable;then trueBlock else falseBlock">
 
 </div>
 <ng-template #falseBlock>
-  <h2>NO no variable is absent</h2>
+  <div>
+    <h2>NO no variable is absent</h2>
+  </div>
 </ng-template>
 
 <ng-template #trueBlock>
-  <h2>YES variable is present</h2>
+  <div>
+    <h2>YES variable is present</h2>
+  </div>
 </ng-template>
+<hr>
