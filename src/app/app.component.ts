@@ -13,6 +13,9 @@ someRandomVariable=false;
 public color="red";
 public colors=["red","blue","green","yellow"];
 
+public cone=true;
+public ctwo=true;
+
 
 constructor(){
   setInterval(()=>{
