@@ -15,6 +15,8 @@ public colors=["red","blue","green","yellow"];
 
 public cone=true;
 public ctwo=true;
+public style='italic';
+public size='30px';
 
 toggle(){
   this.cone=!this.cone;
