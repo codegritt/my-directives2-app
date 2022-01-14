@@ -16,7 +16,11 @@ public colors=["red","blue","green","yellow"];
 public cone=true;
 public ctwo=true;
 
+toggle(){
+  this.cone=!this.cone;
+  this.ctwo=!this.ctwo;
 
+}
 constructor(){
   setInterval(()=>{
   this.someRandomVariable=!this.someRandomVariable
