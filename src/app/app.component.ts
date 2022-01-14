@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-directives2-app';
 
-someRandomVariable=true;
+someRandomVariable=false;
 
 }
