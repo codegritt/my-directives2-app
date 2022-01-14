@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { reduce } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,7 @@ export class AppComponent {
   title = 'my-directives2-app';
 
 someRandomVariable=false;
+public color="red";
 
 constructor(){
   setInterval(()=>{
