@@ -1,10 +1,27 @@
+<h2>Using *ngIf</h2>
+
 <div *ngIf="2>1">
 yes 2 is greater than 1
 </div>
 <br>
+<h2>Using 2 *ngIf</h2>
+
 <div *ngIf="someRandomVariable">
   yes variable is present
 </div>
 <div *ngIf="!someRandomVariable">
   no variable is absent
 </div>
+<br>
+<h2>Using *ngIf else</h2>
+
+<div *ngIf="someRandomVariable;then trueBlock else falseBlock">
+
+</div>
+<ng-template #falseBlock>
+  <h2>NO</h2>
+</ng-template>
+
+<ng-template #trueBlock>
+  <h2>YES</h2>
+</ng-template>
