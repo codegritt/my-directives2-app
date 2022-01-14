@@ -11,6 +11,8 @@ export class AppComponent {
 
 someRandomVariable=false;
 public color="red";
+public colors=["red","blue","green","yellow"];
+
 
 constructor(){
   setInterval(()=>{
