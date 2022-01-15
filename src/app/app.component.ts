@@ -18,6 +18,8 @@ public ctwo=true;
 public style='italic';
 public size='30px';
 
+public name="";
+
 toggle(){
   this.cone=!this.cone;
   this.ctwo=!this.ctwo;
